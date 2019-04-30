@@ -35,7 +35,7 @@ module.exports = function(user) {
 
 Re-running the tests should show you a different error. Now everyone is the same age, namely 48.
 
-Our user objects (`users.js`) have a `dateOfBirth` property, of type string. We can convert that to a number to a string, so let's do that:
+Our user objects (`users.js`) have a `dateOfBirth` property, of type string. We can convert that to a string to a number, so let's do that:
 
 ```js
 // src/data/getUserBirthDate.js
